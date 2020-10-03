@@ -8,20 +8,38 @@ body{
   height: 100%;
 }
 
-.top-image{
-  width: 100%;
-  height: 100%;
-}
-
-.News{
+.news{
   background-color: aqua;
   width: 100%;
   height: 300px;
 }
 
+.movie{
+  background-color: green;
+  width: 100%;
+  height: 300px;
+}
+
+.profile{
+  background-color: red;
+  width: 100%;
+  height: 300px;
+}
+
+.contact{
+  background-color: blue;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+
+
 .image{
   width: 100%;
   height: 100%;
-  background-image: url("<%= asset_path('hishatai.PNG') %>");
+  background-image: url("hishatai.PNG");
   background-size:cover;
+  background-attachment: fixed;
 }
