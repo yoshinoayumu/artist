@@ -41,5 +41,6 @@ body{
   height: 100%;
   background-image: url("hishatai.PNG");
   background-size:cover;
-  background-attachment: fixed;
+  position: fixed;
+  z-index: -1;
 }
